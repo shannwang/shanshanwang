@@ -13,7 +13,7 @@ function createBarChart(data, labels) {
 
     var bar = document.createElement('div');
     bar.className = 'bar';
-    bar.style.width = data[i]-20 + 'px';
+    bar.style.width = data[i]-20 + '%';
 
 
     // Create the label
