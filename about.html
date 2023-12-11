@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>S Wang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Shanshan Wang, traffic network, price impact, market microstructure">
+        <link rel="icon" type="image/jpg" href="images/logo.jpg" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVZZHXSEW2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GVZZHXSEW2');
+        </script>
+
+        <div class="row">
+            <div class="col-12">
+            <ul class="topnav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="talkposter.html">Talks&amp;Posters</a></li>
+                <li><a href="mynotes.html">My Notes</a></li>
+                <li><a href="portfolio.html">Portfolios</a></li>
+                <li><a href="https://github.com/shannwang">GitHub</a></li>  
+            </ul>
+            </div>
+        </div>
+
+         <!-- Include the JavaScript file -->
+        <script src="js/barChart.js" defer></script>
+    
+    </head>
+    
+    <body>
+         <!-- About Section -->
+        <div class='about'>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><strong>About Me</strong></h2> 
+                    <br/>
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-md-6" >
+                    <img  src="images/portfolio/profile.jpg" width=100%/> 
+                    <div class="about-text">
+                        <h5>Shanshan Wang, Dr. rer. nat</h5>
+                        <p>Faculty of Physics<br/>
+                        University of Duisburg-Essen, Germany<br/>
+                        Email: <img src="images/email.png" style="width:200px; height:18px;"><br/>
+                        Language: Chinese (native), English</p>
+                    </div>
+                </div> 
+                <div class="col-md-6">
+                    <img src="images/portfolio/interests.jpg" width=100%/>
+                    <div class="about-text">
+                        <h5>Research Interests</h5> 
+                        <p>Econophysics, Market Microstructure, Price Impact, <br/>Complex Systems, Traffic Networks, <br/>Data Science, Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"> 
+                <div class="col-md-12"> 
+                    <h3>Research Experience</h3>
+                </div>
+                <div class="col-md-3"> 
+                    <img src="images/portfolio/motorway.jpg" width=100%/>
+                    <div class="about-text">
+                        <h5>2019-Now</h5>
+                        <p>Research on correlations and their dynamics in motorway networks</p>
+                    </div>
+                </div>
+                <div class="col-md-3"> 
+                    <img src="images/portfolio/stocks.jpg" width=100%/>
+                    <div class="about-text">
+                        <h5>2013-2017</h5>
+                        <p>Research on the microstructure of the correlated financial markets by analyzing data empirically and modelling theoretically</p>
+                    </div>
+                </div>
+                <div class="col-md-3"> 
+                    <img src="images/portfolio/vortex.jpg" width=100%/>
+                    <div class="about-text">
+                        <h5>2012-2013</h5>
+                        <p>Research on vortex dynamics in mesoscopic superconducting system by numerically solving discrete time-dependent Ginzburg-Landau equations</p>
+                    </div>
+                </div>
+                <div class="col-md-3"> 
+                    <img src="images/portfolio/superconductivity.jpg" width=100%/>
+                    <div class="about-text">
+                        <h5>2010-2012</h6>
+                        <p>Research on the quantum phase transition in mesoscopic superconducting system by numerically solving the Bogoliubov-de Gennes equations self-consistently</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"> 
+                <div class="col-md-4"> 
+                    <img src="images/portfolio/badge.jpg" width=100%/>    
+                </div>
+                <div class="col-md-8" >
+                    <div class="about-text2">
+                        <h3>Certificates &amp; Badges</h3>
+                        <li>Digital Badges&nbsp;&nbsp;[<a href="https://www.credly.com/users/shanshan-wang.71d474ec">view</a>]</li>
+                        <li>IBM Data Science Professional Certificate&nbsp;&nbsp;[<a href="https://www.coursera.org/account/accomplishments/professional-cert/7BT3LY8WPJVH">view</a>]</li>
+                        <li>IBM Applied Data Science Specialization&nbsp;&nbsp;[<a href="https://www.coursera.org/account/accomplishments/specialization/7KK4W3MS2WWS">view</a>]</li>
+                        <li>IBM Data Warehouse Engineer Professional Certificate&nbsp;&nbsp;[<a href="https://www.coursera.org/account/accomplishments/professional-cert/34APMGH4G6UX">view</a>]</li>
+                        <li>SAS Visual Business Analytics Professional Certificate&nbsp;&nbsp;[<a href="https://www.coursera.org/account/accomplishments/professional-cert/QJTXY6HB9RWB">view</a>]</li>
+                    </div> 
+                </div>
+            </div>  
+
+            <br/><br/>
+            <div class="row"> 
+                <div class="col-md-4"> 
+                    <img src="images/portfolio/programming.jpg" width=100%/>   
+                </div>  
+                <div class="col-md-8">  
+                    <div class="about-text2">
+                        <h3>Programming Skills</h3> 
+                        <!-- Container for the bar chart -->
+                        <div id="bar-chart-container"></div>
+                    </div>
+                </div>  
+            </div>  
+
+            <br/><br/>  
+            <div class="row"> 
+                <div class="col-md-12" style="font-size: 10px"> 
+                    Above pictures are created by Bing Image Creator.
+                </div>  
+            </div>  
+  
+
+
+        </div>
+
+    </body>
+</html>
