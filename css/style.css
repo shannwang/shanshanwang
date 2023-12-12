@@ -42,7 +42,7 @@ ul.topnav {
     top: 10%;
     left: 5%;
     width:25%;
-    height:100%;
+    height:auto;
     text-align: center;
 
   }
