@@ -79,12 +79,21 @@
               abstract, 
               'output');
       */
-
+      appendDynamicHTML(
+              'simu_scenario3_3d.png',
+              'Congestions and Spectral Transition in Time-Lagged Correlations of Motorway Traffic',
+              'Gabor B. Hollbeck, René Pilarczyk, Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
+              '',
+              '',
+              'https://doi.org/10.48550/arXiv.2312.12051',
+              'arXiv:2312.12051',
+              'The congestion of a motorway section is propagated to its neighbouring sections, leading to correlations. The resulting correlation matrix encodes the information on congestion. Here, we study symmetrized time-lagged correlations and show how their spectral properties reveal congestion durations. We carry out an empirical analysis and find a transition behavior for the dominant eigenvalue as function of the time lag. Furthermore, we set up a numerical simulation model for indicator time series of traffic phases as well as a simplified model that we treat analytically. We consider various scenarios. Our results reveal a nonlinear relation between the spectral transition and the congestion duration. In our simplified model, we derive this relation analytically.', 
+              'output17');  
       
       appendDynamicHTML(
         'statetransition.png',
         'Transitions between quasi-stationary states in traffic systems: Cologne orbital motorways as an example',
-        'Shanshan Wang, Michael Schreckenberg, Thomas Guhr',
+        'Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
         'https://doi.org/10.1088/1742-5468/acf210',
         'J. Stat. Mech. 2023, 093401 (2023)',
         'https://doi.org/10.48550/arXiv.2302.14596',
@@ -95,7 +104,7 @@
         appendDynamicHTML(
           'response_correlator.png',
           'Response functions as a new concept to study local dynamics in traffic networks',
-          'Shanshan Wang, Michael Schreckenberg, Thomas Guhr',
+          'Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
           'https://doi.org/10.1016/j.physa.2023.129116',
           'Physica A 626, 129116 (2023)',
           'https://doi.org/10.48550/arXiv.2211.08232',
@@ -106,7 +115,7 @@
         appendDynamicHTML(
               'eigenvectors.png',
               'Identifying subdominant collective effects in a large motorway network',
-              'Shanshan Wang, Michael Schreckenberg, Thomas Guhr',
+              'Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
               'https://doi.org/10.1088/1742-5468/ac99d4',
               'J. Stat. Mech. 2022, 113402 (2022)',
               'https://arxiv.org/abs/2202.07644',
@@ -128,7 +137,7 @@
         appendDynamicHTML(
               'NRW_map.png',
               'Collective behavior in the North Rhine-Westphalia motorway network',
-              'Shanshan Wang, Sebastian Gartzke, Michael Schreckenberg, Thomas Guhr',
+              'Shanshan Wang*, Sebastian Gartzke, Michael Schreckenberg, Thomas Guhr',
               'https://doi.org/10.1088/1742-5468/ac3662',
               'J. Stat. Mech. 2021, 123401 (2021)',
               'https://arxiv.org/abs/2107.12947',
@@ -140,7 +149,7 @@
         appendDynamicHTML(
               'trafficstates.png',
               'Quasi-stationary states in temporal correlations for traffic systems: Cologne orbital motorway as an example',
-              'Shanshan Wang, Sebastian Gartzke, Michael Schreckenberg, Thomas Guhr',
+              'Shanshan Wang*, Sebastian Gartzke, Michael Schreckenberg, Thomas Guhr',
               'https://iopscience.iop.org/article/10.1088/1742-5468/abbcd3',
               'J. Stat. Mech. 2020, 103404 (2020)',
               'https://arxiv.org/abs/2008.05530',
@@ -152,7 +161,7 @@
         appendDynamicHTML(
                 'outgoing_connectivity.png',
                 'Grasping asymmetric information in price impacts',
-                'Shanshan Wang, Sebastian Neus&uuml;&szlig;, Thomas Guhr',
+                'Shanshan Wang*, Sebastian Neus&uuml;&szlig;, Thomas Guhr',
                 'https://doi.org/10.1140/epjb/e2018-80599-5',
                 'Eur. Phys. J. B 91, 266 (2018)',
                 'https://arxiv.org/abs/1710.07959',
@@ -163,7 +172,7 @@
       appendDynamicHTML(
               'distribution.png',
               'Statistical properties of market collective responses',
-              'Shanshan Wang, Sebastian Neus&uuml;&szlig;, Thomas Guhr',
+              'Shanshan Wang*, Sebastian Neus&uuml;&szlig;, Thomas Guhr',
               'https://doi.org/10.1140/epjb/e2018-80665-0',
               'Eur. Phys. J. B 91, 191 (2018)',
               'https://arxiv.org/abs/1711.07630',
@@ -174,7 +183,7 @@
         appendDynamicHTML(
               'copula.png',
               'Local fluctuations of the signed traded volumes and the dependencies of demands: a copula analysis',
-              'Shanshan Wang, Thomas Guhr',
+              'Shanshan Wang*, Thomas Guhr',
               'https://doi.org/10.1088/1742-5468/aab01c',
               'J. Stat. Mech. Theory Exp. 2018, 033407 (2018)',
               'https://arxiv.org/abs/1706.09240',
@@ -186,7 +195,7 @@
         appendDynamicHTML(
               'average_responses.png',
               'Microscopic understanding of cross-responses between stocks: a two-component price impact model',
-              'Shanshan Wang, Thomas Guhr',
+              'Shanshan Wang*, Thomas Guhr',
               'https://doi.org/10.1142/S2382626618500090',
               'Market Microstructure and Liquidity 03, 1850009 (2017)',
               'https://arxiv.org/abs/1609.04890',
@@ -198,7 +207,7 @@
         appendDynamicHTML(
                 'trading_strategy.png',
                 'Trading strategies for stock pairs regarding to the cross-impact cost',
-                'Shanshan Wang',
+                'Shanshan Wang*',
                 '',
                 '',
                 'https://arxiv.org/abs/1701.03098',
@@ -209,7 +218,7 @@
                 appendDynamicHTML(
                   'active_response.png',
                   'Average cross-responses in correlated financial markets',
-                  'Shanshan Wang, Rudi Sch&auml;fer, Thomas Guhr',
+                  'Shanshan Wang*, Rudi Sch&auml;fer, Thomas Guhr',
                   'https://doi.org/10.1140/epjb/e2016-70137-0',
                   'Eur. Phys. J. B 89, 207 (2016)',
                   'https://arxiv.org/abs/1603.01586',
@@ -220,7 +229,7 @@
             appendDynamicHTML(
                   'distribution_signed_return.png',
                   'Cross-response in correlated financial markets: individual stocks',
-                  'Shanshan Wang, Rudi Sch&auml;fer, Thomas Guhr',
+                  'Shanshan Wang*, Rudi Sch&auml;fer, Thomas Guhr',
                   'https://doi.org/10.1140/epjb/e2016-60818-y',
                   'Eur. Phys. J. B 89, 10 (2016)',
                   'https://arxiv.org/abs/1603.01580',
@@ -231,7 +240,7 @@
             appendDynamicHTML(
                   'active_response_AAPL.png',
                   'Price response in correlated financial markets: empirical results',
-                  'Shanshan Wang, Rudi Sch&auml;fer, Thomas Guhr',
+                  'Shanshan Wang*, Rudi Sch&auml;fer, Thomas Guhr',
                   '',
                   '',
                   'https://arxiv.org/abs/1510.03205',
