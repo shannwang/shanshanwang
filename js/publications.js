@@ -79,16 +79,7 @@
               abstract, 
               'output');
       */
-      appendDynamicHTML(
-                'response_map.png',
-                'Spatiotemporal statistical features of velocity responses to traffic congestions in a local motorway network',
-                'Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
-                '',
-                '',
-                'https://doi.org/10.48550/arXiv.2406.17724',
-                'arXiv.2406.17724',
-                'The causal connection between congestions and velocity changes at different locations induces various statistical features, which we identify and measure in detail. We carry out an empirical analysis of large-scale traffic data on a  local motorway network around the Breitscheid intersection in the North Rhine-Westphalia, Germany. We put forward a response function which measures the velocity change at a certain location versus time conditioned on a congestion at another location. We use a novel definition of the corresponding congestion indicator to ensure causality. We find that the  response of velocities to the congestion exhibits phase changes in time. A  negative response at smaller time lags transforms into positive one at  larger time lags, implying a certain traffic mechanism. The response decays as a power law with the distance. We also identify a scaling property leading to a collapse of the response functions on one curve. ', 
-                'output20');
+
       appendDynamicHTML(
                   'scaling.png',
                   'How much longer do you have to drive than the crow has to fly',
@@ -98,7 +89,7 @@
                   'https://doi.org/10.48550/arXiv.2406.06490',
                   'arXiv:2406.06490',
                   'When we travel by car from one location to another, our route is constrained by the road network. The resulting network distance is generally longer than the geodetic distance, i.e. the distance as the crow flies, between the two locations. We report a systematic relation between the statistical properties of these two distances. In empirical analyses for large motorway networks in various countries and areas, we work out distributions of network and geodetic distances and identify a surprisingly robust scaling property between them. A simple consequence is that we typically have to drive 1.3 ± 0.1 times longer than the crow flies. Moreover, we show that this scaling is not present in standard random networks; rather, it requires a certain non-randomness, namely adjacency. We develop a set of rules to build a realistic motorway network, also consistent with the scaling properties found empirically. We hypothesize that the scaling reflects, in a rather universal fashion, a compromise between two societal needs: high efficiency and accessibility on the one hand, and limitation of costs and other burdens on the other.', 
-                  'output19');
+                  'output20');
       appendDynamicHTML(
                 'responses_subsequent_sections.png',
                 'Traffic Response Functions: Patterns, Propagation and Congestion',
@@ -108,13 +99,23 @@
                 'https://doi.org/10.48550/arXiv.2406.02307',
                 'arXiv:2406.02307',
                 'Using empirical data gathered on motorways in Germany, we follow a new approach by further exploring response functions as a possible tool to study traffic dynamics in motorway networks. We uncover the basic characteristics of responses of flow and density to given signals and the capability of responses to capture the correlation between these fundamental observables. Furthermore, we uncover the potential use of responses to characterize traffic patterns. We are able to demonstrate the differentiation of congestion patterns and the determination of the propagation velocity of moving congestion.', 
+                'output19');
+        appendDynamicHTML(
+                'response_map.png',
+                'Spatiotemporal statistical features of velocity responses to traffic congestions in a local motorway network',
+                'Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
+                'https://doi.org/10.1088/2632-072X/ad8059',
+                'J. Phys. Complex. 5, 045003 (2024)',
+                'https://doi.org/10.48550/arXiv.2406.17724',
+                'arXiv.2406.17724',
+                'The causal connection between congestions and velocity changes at different locations induces various statistical features, which we identify and measure in detail. We carry out an empirical analysis of large-scale traffic data on a  local motorway network around the Breitscheid intersection in the North Rhine-Westphalia, Germany. We put forward a response function which measures the velocity change at a certain location versus time conditioned on a congestion at another location. We use a novel definition of the corresponding congestion indicator to ensure causality. We find that the  response of velocities to the congestion exhibits phase changes in time. A  negative response at smaller time lags transforms into positive one at  larger time lags, implying a certain traffic mechanism. The response decays as a power law with the distance. We also identify a scaling property leading to a collapse of the response functions on one curve. ', 
                 'output18');
       appendDynamicHTML(
               'simu_scenario3_3d.png',
               'Congestions and Spectral Transition in Time-Lagged Correlations of Motorway Traffic',
               'Gabor B. Hollbeck, René Pilarczyk, Shanshan Wang*, Michael Schreckenberg, Thomas Guhr',
-              '',
-              '',
+              'https://doi.org/10.1016/j.physa.2024.129952',
+              'Physica A 649, 129952 (2024)',
               'https://doi.org/10.48550/arXiv.2312.12051',
               'arXiv:2312.12051',
               'The congestion of a motorway section is propagated to its neighbouring sections, leading to correlations. The resulting correlation matrix encodes the information on congestion. Here, we study symmetrized time-lagged correlations and show how their spectral properties reveal congestion durations. We carry out an empirical analysis and find a transition behavior for the dominant eigenvalue as function of the time lag. Furthermore, we set up a numerical simulation model for indicator time series of traffic phases as well as a simplified model that we treat analytically. We consider various scenarios. Our results reveal a nonlinear relation between the spectral transition and the congestion duration. In our simplified model, we derive this relation analytically.', 
