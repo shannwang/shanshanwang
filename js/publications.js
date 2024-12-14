@@ -84,11 +84,11 @@
                   'scaling.png',
                   'How much longer do you have to drive than the crow has to fly',
                   'Shanshan Wang*, Henrik M. Bette, Michael Schreckenberg, Thomas Guhr',
-                  '',
-                  '',
+                  'https://doi.org/10.1038/s44260-024-00023-x',
+                  'npj Complex. 1, 22 (2024)',
                   'https://doi.org/10.48550/arXiv.2406.06490',
                   'arXiv:2406.06490',
-                  'When we travel by car from one location to another, our route is constrained by the road network. The resulting network distance is generally longer than the geodetic distance, i.e. the distance as the crow flies, between the two locations. We report a systematic relation between the statistical properties of these two distances. In empirical analyses for large motorway networks in various countries and areas, we work out distributions of network and geodetic distances and identify a surprisingly robust scaling property between them. A simple consequence is that we typically have to drive 1.3 ± 0.1 times longer than the crow flies. Moreover, we show that this scaling is not present in standard random networks; rather, it requires a certain non-randomness, namely adjacency. We develop a set of rules to build a realistic motorway network, also consistent with the scaling properties found empirically. We hypothesize that the scaling reflects, in a rather universal fashion, a compromise between two societal needs: high efficiency and accessibility on the one hand, and limitation of costs and other burdens on the other.', 
+                  'When travelling by car from one location to another, our route is constrained by the road network. The network distance between the two locations is generally longer than the geodetic distance as the crow flies. We report a systematic relation between the statistical properties of these two distances. Empirically, we find a robust scaling between network and geodetic distance distributions for a variety of large motorway networks. A simple consequence is that we typically have to drive 1.3 ± 0.1 times longer than the crow flies. This scaling is not present in standard random networks; rather, it requires non-random adjacency. We develop a set of rules to build a realistic motorway network, also consistent with the above scaling. We hypothesise that the scaling reflects a compromise between two societal needs: high efficiency and accessibility on the one hand, and limitation of costs and other burdens on the other.', 
                   'output20');
       appendDynamicHTML(
                 'responses_subsequent_sections.png',
